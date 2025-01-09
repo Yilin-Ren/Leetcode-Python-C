@@ -12,6 +12,8 @@ We can first construct a prefix sum array `p[i]`, where:
 With this prefix sum array, the sum of a range `[l, r]` can be quickly calculated as:
 
 - For `l > 0`:  
+sum(l, r) = p[r] - p[l-1]
+- For `l = 0`:  
 sum(l, r) = p[r]
 
-  Using the prefix sum significantly reduces the computational complexity of range sum queries.
+Using the prefix sum significantly reduces the computational complexity of range sum queries.
