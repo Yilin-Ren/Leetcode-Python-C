@@ -1,5 +1,3 @@
----
-
 ## Reverse a Singly Linked List Using Two Pointers
 
 ### Overview of the Approach
@@ -9,7 +7,7 @@ The two-pointer method reverses a linked list using two pointers, `prev` and `cu
 3. Finally, return `prev`, which points to the new head of the reversed list.
 
 ### Two-Pointer Diagram
-```markdown
+```
 Initial State:
 prev -> None
 curr -> 1 -> 2 -> 3 -> 4 -> 5 -> None
