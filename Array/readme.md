@@ -1,7 +1,7 @@
 # Leetcode 题解 - 数组
 <!-- GFM-TOC -->
-* [Leetcode 题解 - 数组](#leetcode-题解---数组)
-    * [1. 二分查找](#704-字符串循环移位包含)
+* [Leetcode 题解 - 数组]()
+    * [1. 二分查找]([#704-字符串循环移位包含](https://leetcode.cn/problems/binary-search/))
     *
 
 ## 1. 二分查找
