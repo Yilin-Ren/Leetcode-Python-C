@@ -2,7 +2,7 @@
 <!-- GFM-TOC -->
 * [Leetcode 题解 - 数组]()
     * [704. 二分查找](https://leetcode.cn/problems/binary-search/)
-    *
+    * [27. 移出元素](https://leetcode.cn/problems/remove-element/)
 
 ## 1. 二分查找
 ```html
@@ -14,8 +14,18 @@
 int left = 0; int right = nums.size(); while(left<right)
 int left = 0; int right = nums.size()-1; while(left<=right)
 ```
-类似题型
 
-([#35-搜索插入位置](https://leetcode.cn/problems/search-insert-position/description/)，[#34-在排序数组中查找元素的第一个和最后一个位置](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/). [#69-x的平方根](https://leetcode.cn/problems/sqrtx/). [#367-有效的完全平方数
-](https://leetcode.cn/problems/valid-perfect-square/))
+## 2. 移除元素
+```html
+输入：nums = [3,2,2,3], val = 3
+输出：2, nums = [2,2,_,_]
+```
+双指针法（快慢指针法）： 通过一个快指针和慢指针在一个for循环下完成两个for循环的工作。
+```html
+定义快慢指针
+快指针：寻找新数组的元素 ，新数组就是不含有目标元素的数组
+慢指针：指向更新 新数组下标的位置
+```
+
+
 
