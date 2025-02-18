@@ -14,3 +14,6 @@
 int left = 0; int right = nums.size(); while(left<right)
 int left = 0; int right = nums.size()-1; while(left<=right)
 ```
+类似题型：
+#35-搜索插入位置，#34-在排序数组中查找元素的第一个和最后一个位置，#69-x的平方根，#367-有效的完全平方数
+
