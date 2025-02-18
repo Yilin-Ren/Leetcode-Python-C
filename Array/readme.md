@@ -1,7 +1,7 @@
 # Leetcode 题解 - 数组
 <!-- GFM-TOC -->
 * [Leetcode 题解 - 数组]()
-    * [1. 二分查找](https://leetcode.cn/problems/binary-search/)
+    * [704. 二分查找](https://leetcode.cn/problems/binary-search/)
     *
 
 ## 1. 二分查找
@@ -14,5 +14,6 @@
 int left = 0; int right = nums.size(); while(left<right)
 int left = 0; int right = nums.size()-1; while(left<=right)
 ```
-[类似题型](#35-搜索插入位置，#34-在排序数组中查找元素的第一个和最后一个位置，#69-x的平方根，#367-有效的完全平方数)
+[类似题型]([#35-搜索插入位置](https://leetcode.cn/problems/search-insert-position/description/)，[#34-在排序数组中查找元素的第一个和最后一个位置](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/). [#69-x的平方根](https://leetcode.cn/problems/sqrtx/). [#367-有效的完全平方数
+](https://leetcode.cn/problems/valid-perfect-square/))
 
